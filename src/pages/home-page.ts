@@ -31,6 +31,8 @@ import {
   showForkMeBlockForProjectIds,
   title,
   viewHighlights,
+  call4papers,
+  call4papersUrl
 } from '../utils/data';
 import '../utils/icons';
 import { INCLUDE_SITE_TITLE, updateMetadata } from '../utils/metadata';
@@ -172,10 +174,15 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           </div>
 
           <div class="action-buttons" layout horizontal center-justified wrap>
-            <paper-button class="watch-video" on-click="playVideo">
+            
+            <a href="[[call4papersUrl]]" target="_blank" rel="noopener noreferrer">
+              <paper-button class="watch-video">
               <iron-icon icon="hoverboard:movie"></iron-icon>
-              [[viewHighlights]]
+              [[call4papers]]
             </paper-button>
+            </a>
+
+            
             <paper-button on-click="scrollToTickets" primary invert>
               <iron-icon icon="hoverboard:ticket"></iron-icon>
               [[buyTicket]]
@@ -267,6 +274,8 @@ export class HomePage extends ReduxMixin(PolymerElement) {
   private siteTitle = title;
   private dates = dates;
   private viewHighlights = viewHighlights;
+  private call4papers = call4papers;
+  private call4papersUrl = call4papersUrl;
   private buyTicket = buyTicket;
   private heroSettings = heroSettings.home;
   private aboutBlock = aboutBlock;

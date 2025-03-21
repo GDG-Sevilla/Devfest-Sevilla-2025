@@ -48,6 +48,8 @@ export {
   title,
   image,
   viewHighlights,
+  call4papers,
+  call4papersUrl
 } from '../../public/data/resources.json';
 export {
   contentLoaders,

@@ -1,7 +1,7 @@
 {
   "organizer": {
-    "name": "GDG Lviv",
-    "twitter": "gdglviv",
+    "name": "GDG Sevilla",
+    "twitter": "GDGSevilla",
     "blog": "https://medium.com/gdg-lviv",
     "url": "http://lviv.gdg.org.ua/"
   },
@@ -13,7 +13,7 @@
     "backgroundColor": "#673AB7"
   },
   "dateFormat": {
-    "locale": "en-US"
+    "locale": "es"
   },
   "hashtag": "DevFest",
   "disabledSchedule": false,
@@ -46,7 +46,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "Join the commuity, learn new things!",
+      "description": "¡Inspira, aprende y conecta!",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
@@ -120,31 +120,27 @@
     }
   },
   "location": {
-    "label": "Location",
-    "name": "Planeta kino",
-    "city": "Lviv",
-    "short": "Lviv, Ukraine",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "label": "Ubicación",
+    "name": "TBA",
+    "city": "Sevilla",
+    "short": "Sevilla, España",
+    "address": "Sevilla, España",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
-      "zoom": 5
+      "latitude": 37.38283,
+      "longitude": -5.97317,
+      "zoom": 11
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
+      "latitude": 37.4,
+      "longitude": -6
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "Pronto habrá mas información del venue"
   },
   "socialNetwork": {
     "follow": [
       {
-        "name": "meetup",
+        "name": "linkedin",
         "url": "https://www.meetup.com/GDG-Lviv/events/244342635/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/devfest.ukraine/"
       },
       {
         "name": "twitter",
@@ -153,10 +149,6 @@
       {
         "name": "instagram",
         "url": "https://www.instagram.com/devfestukraine"
-      },
-      {
-        "name": "youtube",
-        "url": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
       }
     ],
     "share": [
@@ -170,7 +162,7 @@
       }
     ]
   },
-  "mailto": "devfest@gdg.org.ua",
+  "mailto": "alvaro@gdgsevilla.com",
   "signInProviders": {
     "providersData": [
       {
@@ -207,5 +199,8 @@
       "itemsCount": 5
     }
   },
-  "showForkMeBlockForProjectIds": ["hoverboard-master", "hoverboard-dev"]
+  "showForkMeBlockForProjectIds": [
+    "hoverboard-master",
+    "hoverboard-dev"
+  ]
 }
